@@ -1,0 +1,4 @@
+{
+  "componentFolder": "components",
+  "testFiles": "**/*.spec.cy.{js,ts,jsx,tsx}"
+}

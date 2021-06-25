@@ -1,0 +1,33 @@
+.code-edit-container{
+    position: relative;
+}
+
+.code-input, .code-output code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.code-output.code-prism-fix{
+    padding-bottom: 29px;
+}
+
+.code-input, body .code-output{
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.code-input{
+    display: block;
+    resize: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    color: hsla(0, 0%, 0%, 0);
+    caret-color: #333;
+}
